@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poryectos en GitHub desde cero con JS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Calculadora Básica </title>
 </head>
 <body>
+    <div id="header">
+        <div id="logo-calculator">
+            <a href="./index.html">Calculadora</a>
+            <h1 id="welcome">Bienvenidos a la mejor calculadora de toda la historia</h1>
+        </div>
+    </div>
+    <div class="container">
+        <form id="form">
+            <div class="display">
+                <input id="input" type="number" placeholder="Ingresa un numero">
+            </div>
+            <div id="basicas3">
+                <button class="op" id="borrarTodo" type="button">AC</button>
+                <button class="op" id="radicacion" type="button">√</button>
+                <button class="op" id="pi" type="button">pi</button>
+                <button class="op" id="euler" type="button">e</button>   
+            </div>
+            <div id="basicas2">
+                <button class="op" id="mod" type="button">%</button>
+                <button class="op" id="iParentesis" type="button">(</button>
+                <button class="op" id="dParentesis" type="button">)</button>
+                <button class="op" id="exponente" type="button">^</button>
+            </div>
+            <div id="basicas1">
+                <button class="op" id="suma" type="button">+</button>
+                <button class="op" id="resta" type="button">-</button>
+                <button class="op" id="multi" type="button">x</button>
+                <button class="op" id="division" type="button">/</button>   
+            </div>
+            <div>
+                <button id="igual" type="button">=</button>
+            </div>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
