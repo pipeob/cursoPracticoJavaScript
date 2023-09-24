@@ -6,9 +6,7 @@ body {
 }
 
 /* .container {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 5px;
+    font-family: 'Courier New';
 } */
 
 #igual {
@@ -17,7 +15,7 @@ body {
     font-size: 20px;
     border: 1px solid #215697;
     border-radius: 30px;
-    padding: 14px 25%;
+    padding: 14px 85px;
     cursor: pointer;
     vertical-align: top;
 }
@@ -28,7 +26,7 @@ body {
     border: 1px solid #215697;
 }
 
-input {
+#input {
     color: #ffffff;
     background-color: #4b6079;
     font-size: 20px;
@@ -43,6 +41,21 @@ input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     appearance: none;
+}
+
+#borrarTodo, #borrar {
+    color: #ffffff;
+    background-color: #612fa3;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #612fa3;
+    border-radius: 30px;
+    padding: 0;
+    margin: 5px;
+    cursor: pointer;
+    vertical-align: bottom;
+    
 }
 
 .op {
